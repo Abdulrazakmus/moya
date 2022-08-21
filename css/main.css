@@ -3099,8 +3099,60 @@ h6 {
   width 30px
 }
 
+.moya{
+text-align:flex;
+flex-direction:left;
+
+color:#4b2f22;
+}
 
 
 
 
+
+
+/******** Back to Top CSS *********/
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 1;
+  font-size: 30px;
+  right: 30px;
+  bottom: 30px;
+  transition: 0.5s;
+  z-index: 11;
+}
+
+.back-to-top i {
+  color: #008ad2;
+}
+
+.back-to-top i:hover {
+  color: #004faa;
+}
+
+.back-to-top {
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
+
+@-webkit-keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
 
